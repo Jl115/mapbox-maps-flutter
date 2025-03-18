@@ -31,7 +31,7 @@ extension LocationOptions {
         useDefaultPuck2DIfNeeded: Bool
     ) throws -> LocationOptions {
         var options = LocationOptions()
-        print("LocationOptions: \(settings)")
+        NSLog("LocationOptions: \(settings)")
 
         if let puckBearingEnabled = settings.puckBearingEnabled {
             options.puckBearingEnabled = puckBearingEnabled
